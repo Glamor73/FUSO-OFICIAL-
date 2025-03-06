@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column; /* Organiza los elementos en columnas */
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.calendar-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 30px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 10px;
+}
+
+.day-header {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    min-height: 50px; /* Garantiza un tamaño adecuado para cada celda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid #ddd;
+}
+
+.day:hover {
+    background-color: #f0f0f0;
+}
+
+.day.empty {
+    background-color: transparent;
+}
+
+.task {
+    background-color: #f8f8f8;
+    padding: 5px;
+    margin: 2px 0;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.tasks-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+#task-list {
+    margin-top: 20px;
+}
+
+#task-form {
+    display: flex;
+    flex-direction: column; /* Organiza los elementos del formulario verticalmente */
+    gap: 10px; /* Añade un espacio entre cada campo */
+    margin-bottom: 20px;
+}
+
+input[type="date"], input[type="text"], button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
