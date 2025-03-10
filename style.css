@@ -63,7 +63,7 @@ h2 {
     padding: 20px;
     border-radius: 5px;
     cursor: pointer;
-    min-height: 50px; /* Garantiza un tamaño adecuado para cada celda */
+    min-height: 30px; /* Garantiza un tamaño adecuado para cada celda */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,6 +94,8 @@ h2 {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 800px;
+    margin-left: 55%;
+    margin-top: -25%;
     box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
 }
 
@@ -108,7 +110,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-input[type="date"], input[type="text"], button {
+input[type="date"], input[type="text"], input[type="number"], button {
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
@@ -123,5 +125,5 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #45a049;/*alejo*//*fuso*/
 }
