@@ -60,17 +60,23 @@ h2 {
 }
 
 .day {
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
     cursor: pointer;
-    min-height: 30px; /* Garantiza un tamaño adecuado para cada celda */
+    min-height: 80px; /* Garantiza un tamaño adecuado para cada celda */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
     align-items: center;
     position: relative;
     border: 1px solid #ddd;
 }
 
+.day-number{
+    front-size:16px;
+    front-weight:bold;
+    margin-bottom: 5px;
+}
 .day:hover {
     background-color: #f0f0f0;
 }
@@ -125,5 +131,10 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;/*alejo*//*fuso*/
+    background-color: #45a049;
+}
+
+#average-container{
+    margin-top: 20px;
+    front-size: 18px;
 }
