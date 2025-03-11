@@ -31,15 +31,21 @@
             <input type="date" id="task-date" required>
             <label for="task-name">Tarea:</label>
             <input type="text" id="task-name" placeholder="Ingrese una tarea" required>
+            <button type="submit">Agregar tarea</button>
             <label for="task-note">Nota:</label>
             <input type="number" id="task-note" placeholder="Ingrese una nota" step="0.1">
-            <button type="submit">Agregar tarea y nota</button>
+            <button type="submit">Agregar nota</button>
         </form>
         <div id="task-list">
             <!-- Las tareas se agregarán aquí -->
+        <div id="average-container">
+            <h3>Promedio de Notas:<span id="average">0.0</span> </h3>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
