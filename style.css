@@ -125,13 +125,13 @@ input[type="date"], input[type="text"], input[type="number"], button {
 
 button {
     cursor: pointer;
-    background-color: #4CAF50;
+    background-color: #000000;
     color: white;
     border: none;
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #000000;
 }
 
 #average-container{
