@@ -1,6 +1,10 @@
 {
   "dependencies": {
+<<<<<<< Updated upstream
     "lucide-react": "^0.483.0",
+=======
+    "lucide-react": "^0.479.0",
+>>>>>>> Stashed changes
     "motion": "^12.5.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
